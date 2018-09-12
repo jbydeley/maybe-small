@@ -1,10 +1,13 @@
 {
-  "name": "maybe",
+  "name": "maybe-small",
   "author": {
     "name": "Jared Bydeley"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "files": [
+    "dist/maybe.js"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "rollup -c rollup.config.js",

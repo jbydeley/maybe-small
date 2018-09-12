@@ -10,6 +10,10 @@ export class Maybe {
         return new Maybe(value)
     }
 
+    get value() {
+        return this.__value;
+    }
+    
     isNothing() {
         return (this.__value === null || this.__value === undefined)
     }
