@@ -1,4 +1,4 @@
-export class Maybe {
+export default class Maybe {
     constructor(value) {
         if (value instanceof Maybe) {
             return value
